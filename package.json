@@ -1,0 +1,14 @@
+{
+  "name": "tithi",
+  "version": "1.0.0",
+  "description": "Tithi Astrology Application",
+  "scripts": {
+    "frontend": "cd front-end && npm run dev",
+    "backend": "cd back-end && npm run dev",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "install:all": "npm install && cd front-end && npm install && cd ../back-end && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+} 
