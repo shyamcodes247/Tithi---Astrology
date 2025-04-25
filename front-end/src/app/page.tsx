@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import BirthDetailsForm from '@/components/BirthDetailsForm';
 import PlanetaryPositions from '@/components/PlanetaryPositions';
+import HinduCalendar from '@/components/HinduCalendar';
 import Logo from '@/components/Logo';
 import { BirthDetails, PlanetData } from '@/types/astrology';
 import { getPlanetaryPositions } from '@/services/astrologyService';
@@ -38,6 +39,10 @@ export default function Home() {
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 font-mono text-center">
             Astrological Planetary Positions
           </h1>
+        </div>
+        
+        <div className="mb-8">
+          <HinduCalendar />
         </div>
         
         <BirthDetailsForm onSubmit={handleSubmit} />

@@ -35,8 +35,8 @@ A full-stack application for calculating astrological planetary positions using 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tithi-astrology.git
-cd tithi-astrology
+git clone https://github.com/shyamcodes247/Tithi---Astrology.git
+cd Tithi---Astrology
 ```
 
 2. Install all dependencies:
@@ -86,7 +86,6 @@ npm run backend
 tithi-astrology/
 ├── front-end/                # Next.js frontend application
 │   ├── public/               # Static assets
-│   │   └── assets/           # Additional assets
 │   ├── src/                  # Source code
 │   │   ├── app/              # Next.js app router
 │   │   ├── components/       # React components
@@ -129,6 +128,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
 
-Project Link: [https://github.com/yourusername/tithi-astrology](https://github.com/yourusername/tithi-astrology) 
+Project Link: [https://github.com/shyamcodes247/Tithi---Astrology](https://github.com/shyamcodes247/Tithi---Astrology)
+
+---
+
+**Note**: Before pushing to GitHub, replace the following placeholders with your actual information:
+- `YOUR_USERNAME` with your GitHub username
+- `YOUR_NAME` with your name
+- `YOUR_TWITTER` with your Twitter handle
+- `YOUR_EMAIL@EXAMPLE.COM` with your email address 
